@@ -22,7 +22,9 @@ export class LoginComponent {
 
   }
   goback(){
-    this.router.navigateByUrl('/')
+    // to navigate to main appcomponent use 
+    //this.router.navigateByUrl('/')
+    this.router.navigateByUrl('/bootstrapcomponent')
   }
   
 }

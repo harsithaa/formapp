@@ -5,7 +5,7 @@ import { BootstrapcomponentComponent } from './bootstrapcomponent/bootstrapcompo
 import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [ 
-  {path: '', component: AppComponent},
+  {path: '', component: LoginComponent},
   {path: 'app ', component: AppComponent},
   {path: 'login', component: LoginComponent},
   {path: 'bootstrapcomponent', component: BootstrapcomponentComponent}
